@@ -68,13 +68,13 @@ export default {
   }
 
   .image-container {
-    width: 80%;
+    width: 70%;
   }
 }
 
 @media (max-width: 480px) {
   .image-container {
-    width: 100%;
+    width: 90%;
   }
 }
 </style>
