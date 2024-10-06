@@ -37,7 +37,7 @@ export default {
   width: 94%;
   height: auto;
   border-radius: 10px;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.35s ease;
 }
 
 .default-image {
@@ -68,13 +68,13 @@ export default {
   }
 
   .image-container {
-    width: 70%;
+    width: 80%;
   }
 }
 
 @media (max-width: 480px) {
   .image-container {
-    width: 90%;
+    width: 100%;
   }
 }
 </style>
