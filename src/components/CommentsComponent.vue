@@ -16,9 +16,11 @@
             :key="testimonial.name"
           >
             <div class="stars">★★★★★</div>
+              
             <p>{{ testimonial.text }}</p>
             <div class="profile">
               <img :src="testimonial.img" alt="Profile picture" />
+                
               <p>{{ testimonial.name }}</p>
               <small>{{ testimonial.role }}</small>
             </div>
